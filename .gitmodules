@@ -4,3 +4,6 @@
 [submodule "Bluetooth_Dosimeter_Frontend"]
 	path = Bluetooth_Dosimeter_Frontend
 	url = https://github.com/Baitinq/Bluetooth_Dosimeter_Frontend
+[submodule "Bluetooth_Dosimeter_AP"]
+	path = Bluetooth_Dosimeter_AP
+	url = https://github.com/Baitinq/Bluetooth_Dosimeter_AP
