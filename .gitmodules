@@ -1,0 +1,3 @@
+[submodule "Bluetooth_Dosimeter_Backend"]
+	path = Bluetooth_Dosimeter_Backend
+	url = https://github.com/Baitinq/Bluetooth_Dosimeter_Backend
