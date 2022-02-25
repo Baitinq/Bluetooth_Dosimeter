@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  bluetooth_dosimeter_backend:
+    extends:
+         file: Bluetooth_Dosimeter_Backend/docker-compose.yml
+         service: _bluetooth_dosimeter_backend
+            #  bluetooth_dosimeter_ap:
+      #container_name: bluetooth_dosimeter_ap
+      #build: AP/.
+      #network_mode: host
+      #privileged: true
+      #restart: unless-stopped
+      #platform: linux/arm/v7
+
+#add another service for frontend
+#add another service for nginx redirects?
