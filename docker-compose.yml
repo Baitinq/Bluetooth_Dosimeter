@@ -5,6 +5,8 @@ services:
       file: Bluetooth_Dosimeter_Backend/docker-compose.yml
       service: _bluetooth_dosimeter_backend
   bluetooth_dosimeter_ap:
+    env_file:
+      - ".env"
     extends:
       file: Bluetooth_Dosimeter_AP/docker-compose.yml
       service: _bluetooth_dosimeter_ap
